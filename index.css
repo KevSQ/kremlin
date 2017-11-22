@@ -1,0 +1,52 @@
+body {
+	margin: 0px;
+	background: #D52B1E;
+}
+
+@font-face {
+	font-family: 'Kremlin';
+	src: url('kremlin.ttf') format('truetype');
+}
+
+.head {
+	border: 1px hidden black;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: #D52B1E;
+	font-family: "Kremlin", sans-serif;
+	color: white;
+}
+
+#container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+	#profile {
+		width: 100vw;
+		height: 100vh;
+	}
+
+#slogan {
+	background: black;
+}
+
+img {
+	width: 100vw;
+	height: 100vh;
+	margin-top: 0px;
+}
+
+.button {
+	text-align: center;
+}
+a {
+	border: 5px solid #A20000;
+	text-decoration: none;
+	font-size: 32px;
+	color: white;
+	font-family: "Kremlin", sans-serif;
+
+}
